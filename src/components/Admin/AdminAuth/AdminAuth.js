@@ -31,7 +31,7 @@ const AdminAuth = () => {
         console.log(id);
         // console.log("auth=",uid);
         // console.log("auth=", user.id);
-        if (AID == "Dizm62fRVLSE90Wks3yuM1gEUK33") {
+        if (AID == "K3HniA8m1mZ72jJNbKlyzz4Zqxs2") {
           navigate("/admin");
         } else {
           alert("error");

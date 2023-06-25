@@ -6,6 +6,7 @@ import logo1 from "./images/Blog.png";
 import logo2 from "./images/Account.png";
 import logo3 from "./images/TechnicalSupport.png";
 import logo4 from "./images/Find.png";
+import logo5 from "./images/Police.png";
 //
 
 const Admin = () => {
@@ -26,31 +27,24 @@ const Admin = () => {
           </div>
         </Link>
 
-        <Link to="/ManageBlog">
+        <Link to="/CustomerSupport">
           <div className="Admincard">
             <img src={logo3}></img>
             <h1>Customer Support</h1>
           </div>
         </Link>
 
-        <Link to="/ManageBlog">
+        <Link to="/FindLostOne">
           <div className="Admincard">
             <img src={logo4}></img>
             <h1>Find Lost Ones Request</h1>
           </div>
         </Link>
 
-        <Link to="/ManageBlog">
+        <Link to="/RecordCheck">
           <div className="Admincard">
-            <img src={logo1}></img>
-            <h1>Manage Blog</h1>
-          </div>
-        </Link>
-
-        <Link to="/ManageBlog">
-          <div className="Admincard">
-            <img src={logo1}></img>
-            <h1>Manage Blog</h1>
+            <img src={logo5}></img>
+            <h1>Check Crime Record</h1>
           </div>
         </Link>
       </div>

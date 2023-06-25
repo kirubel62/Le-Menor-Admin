@@ -1,15 +1,15 @@
-.masterdisplay {
+.Rmasterdisplay {
   background-color: gainsboro;
-  height: 100%;
+  height: 69vh;
   margin: 0;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  column-gap: 10%;
 }
 
-.DPCard {
+.RDPCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,13 +21,9 @@
   margin-bottom: 20px;
 }
 
-.DPcardItem {
+.RDPcardItem {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
-}
-
-.data {
-  display: inline;
 }

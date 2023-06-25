@@ -33,8 +33,11 @@ import VolunteerOpportunities from "./components/Volunter/VolunteerOpportunities
 //
 import AdminAuth from "./components/Admin/AdminAuth/AdminAuth";
 import Admin from "./components/Admin/Admin";
-import UpadateAccount from "./components/Admin/ManageAccount/UpadateAccount/UpadateAccount";
+import UpadateAccount from "./components/Admin/ManageAccount/UpadateAccount/UpadateAccount"
 import ManageAccount from "./components/Admin/ManageAccount/ManageAccount";
+import RecordCheck from "./components/Admin/AdminAuth/RecordCheck/RecordCheck.";
+import CustomerSupport from "./components/Admin/CustomerSupport/CustomerSupport";
+import FindLostOne from "./components/Admin/FindLostOne/FindLostOne";
 import More from "./components/Services/Service2/More";
 import MangeBlog from "./components/Admin/MangageBlog/ManageBlog";
 import News from "./components/Admin/MangageBlog/News/News";
@@ -209,6 +212,9 @@ function App() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/ManageBlog" element={<MangeBlog />} />
         <Route path="/UpadateAccount" element={<UpadateAccount />} />
+        <Route path="/RecordCheck" element={<RecordCheck />} />
+        <Route path="/CustomerSupport" element={<CustomerSupport />} />
+        <Route path="/FindLostOne" element={<FindLostOne />} />
         <Route path="/ManageAccount" element={<ManageAccount />} />
         <Route path="/News" element={<News />} />
         <Route path="/Story" element={<Story />} />
